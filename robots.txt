@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/  # Disallow crawling of any admin pages if they exist
+Disallow: /private/  # Disallow crawling of any private pages if they exist
+Disallow: /api/  # Disallow crawling of any API endpoints if they exist
+Disallow: /contact-us.html  # Disallow crawling of the contact us page if it's a separate HTML file
+Disallow: /assets/  # Disallow crawling of any assets directory if it exists
+Disallow: /images/  # Disallow crawling of any images directory if it exists
+
+# Allow indexing of the main page
+Allow: /$
