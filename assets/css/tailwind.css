@@ -1463,6 +1463,17 @@ p {
   }
 }
 
+@media(max-width: 900px) {
+  .modalbody{
+    height:85vh;
+  }
+
+  .modalbody iframe{
+    height:90vh;
+    margin-top:2em;
+  }
+}
+
 .single-pricing {
   position: relative;
   z-index: 10;
